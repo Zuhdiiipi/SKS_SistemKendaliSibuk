@@ -11,7 +11,7 @@
             <div class="bg-gradient-to-r from-gray-800 to-gray-900 overflow-hidden shadow-lg sm:rounded-xl mb-8">
                 <div class="p-8 text-white flex justify-between items-center">
                     <div>
-                        <h3 class="text-2xl font-bold">Selamat Bertugas, {{ Auth::user()->name }}! 🛡️</h3>
+                        <h3 class="text-2xl font-bold">Selamat Bertugas, {{ Auth::user()->name }}!</h3>
                         <p class="text-gray-300 mt-2">Berikut adalah statistik penggunaan Sistem Kendali Sibuk secara keseluruhan (Real-time).</p>
                     </div>
                     <div class="hidden md:block">
